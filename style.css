@@ -1,2 +1,138 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
+body{
+    width: auto;
+}
+
+
+/*Logo and Navigation*/
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 1.0;
+    
+}
+
+.logo{
+    display: inline-block;
+    text-align: left;
+    width: 150px;
+    height: 60px;
+    
+    margin-left: 100px;
+    
+
+}
+
+.boldNavbutton{
+display: inline-block;
+text-align: right;
+}
+
+.navbutton{
+display: inline-block;
+text-align: end;
+}
+
+.search{
+    width: 30px;
+    height: 30px;
+    margin-right: 60px;
+}
+
+
+/*Fresh Furniture heading*/
+header{
+    background-image: url(images/header.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    width: 1230px;
+    height: 946px;
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+.mainimage{
+    width: 750px;
+    height: 600px;
+
+}
+/*About us section*/
+main{
+    display: flex;
+}
+
+.about{
+    display: flex;;
+}
+
+.houseplant{
+    width: 375px;
+    height: 400px;
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+p{
+    display: block;
+    justify-content: space-evenly;
+    align-content: space-around;
+    width: 370px;
+    height: 390px;
+}
+
+.delivery{
+   display: block;
+   width: 60px;
+   height: 55px; 
+}
+
+.support{
+    display: block;
+    width: 60px;
+    height: 55px; 
+ }
+
+ .montage{
+    display: block;
+    width: 60px;
+    height: 55px; 
+ }
+
+
+ .categoryBox{
+    display: flex;
+    flex-direction: row;
+ }
+
+ .cat{
+     display: block;
+     text-align: center;
+ }
+
+ section{
+    display: inline-block;
+ }
+
+ img{
+     width: 360px;
+     height: 630px;
+ }
+
+/*Copyright*/
+.copyright{
+    display: inline-block;
+    justify-self: center;
+}

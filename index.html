@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 
-<html lang="es">
+<html lang="en">
 
     <head>
         <title>IKAE Furniture</title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css"></link>
     </head>
 
     <body>
 <!--Logo and Navigation-->
         <nav>
-            <img src="#" alt="Logo">
-            <button>SHOP</button>
-            <button>COLLECTION</button>
-            <button>BLOG</button>
-            <button>CONTACT</button>
-            <button> <img src="#" alt="Search Button"> </button>
+            <img class="logo" src="icons/logo.png" alt="IKAE">
+            <button class="boldNavbutton">SHOP</button>
+            <button class="navbutton">COLLECTION</button>
+            <button class="navbutton">BLOG</button>
+            <button class="navbutton">CONTACT</button>
+            <button class="navbutton"> <img class="search" src="icons/search.png" alt="Search Button"> </button>
         </nav>
 
+        <main>
 <!--Fresh Furniture heading-->
         <header>
             <h1>FRESH FURNITURE</h1>
-            <img src="#" alt="chair and table">
+            <img class="mainimage" src="images/header.jpg" alt="chair and table">
         </header>
 
 <!--About us section-->
-        <main>
-            <div>
+        
+            <div class="about">
                 <h3>about us</h3>
                 <h4>we provide good furniture</h4>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
@@ -37,39 +39,41 @@
             </div>
             <div>
                 <h4>our specialization</h4>
-                <img src="#" alt="delivery truck symbol">
+                <img class="delivery" src="icons/delivery.png" alt="delivery truck symbol">
                 <span>DELIVERY</span>
-                <img src="#" alt="dialogue symbol">
+                <img class="support" src="icons/support.png" alt="dialogue symbol">
                 <span>SUPPORT</span>
-                <img src="#" alt="spanner symbol">
+                <img class="montage" src="icons/montage.png" alt="spanner symbol">
                 <span>MONTAGE</span>
             </div>
-            <img src="#" alt="house plant in front of window">
+            <img class="houseplant" src="images/houseplant.jpg" alt="house plant in front of window">
         </main>
 
 <!--Furniture Categories by rooms-->
-        <section>
-            <h3>categories</h3>
+        <h3 class="cat">categories</h3>
+        <section class="categoryBox">
             <section>
-                <img src="#" alt="bathroom">
+                <img src="images/bathroom.jpg" alt="bathroom">
                 <h2>BATHROOM</h2>   
             </section>
             <section>
-                <img src="#" alt="kitchen">
+                <img src="images/kitchen.jpg" alt="kitchen">
                 <h2>KITCHEN</h2>
             </section>
             <section>
-                <img src="#" alt="bed room">
+                <img src="images/bedroom.jpg" alt="bed room">
                 <h2>BED ROOM</h2></section>
             <section>
-                <img src="#" alt="living room">
+                <img src="images/livingroom.jpg" alt="living room">
                 <h2>LIVING ROOM</h2>
             </section>
         </section>
+        </body>
 
+        
 <!--Copyright-->        
         <footer>
-            <p>© IKAE 2018 | All Rights reserved.</p>
+            <p class="copyright">© IKAE 2018 | All Rights reserved.</p>
         </footer>
-    </body>
+    
 </html>

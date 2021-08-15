@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
 body{
-    width: auto;
+    width: auto
 }
 
 
@@ -69,7 +69,7 @@ main{
 }
 
 .about{
-    display: flex;;
+    display: flex;
 }
 
 .houseplant{
@@ -93,24 +93,11 @@ p{
     height: 390px;
 }
 
-.delivery{
+.services{
    display: block;
    width: 60px;
    height: 55px; 
 }
-
-.support{
-    display: block;
-    width: 60px;
-    height: 55px; 
- }
-
- .montage{
-    display: block;
-    width: 60px;
-    height: 55px; 
- }
-
 
  .categoryBox{
     display: flex;

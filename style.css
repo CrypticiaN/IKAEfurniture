@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
 body{
-    width: auto
+    width: 100%;
 }
 
 
@@ -14,9 +14,9 @@ nav{
 }
 
 .logo{
-    display: inline-block;
+    display: flex;
     text-align: left;
-    width: 150px;
+    width: 1.0;
     height: 60px;
     
     margin-left: 100px;
@@ -25,7 +25,7 @@ nav{
 }
 
 .boldNavbutton{
-display: inline-block;
+display: block;
 text-align: right;
 }
 
@@ -99,13 +99,14 @@ p{
    height: 55px; 
 }
 
+/*Furniture Categorgies by rooms*/
  .categoryBox{
     display: flex;
     flex-direction: row;
  }
 
  .cat{
-     display: block;
+     display: flex;
      text-align: center;
  }
 
